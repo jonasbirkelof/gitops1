@@ -6,4 +6,4 @@ services:
         ports:
             - 8001:80
         volumes:
-            - \\wsl.localhost\docker-desktop-data\data\docker\volumes\portainer_data\_data\compose\11\src:/usr/share/nginx/html
+            - //wsl.localhost/docker-desktop-data/data/docker/volumes/portainer_data/_data/compose/11/src:/usr/share/nginx/html
