@@ -1,0 +1,8 @@
+---
+- name: Test Playbook Run
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Print some text
+      command: echo "Hello there!"
